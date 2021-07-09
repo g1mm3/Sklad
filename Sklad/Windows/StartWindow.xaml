@@ -1,0 +1,38 @@
+﻿<Window x:Class="Sklad.Windows.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sklad.Windows"
+        mc:Ignorable="d"
+        Title="Система СКЛАД" Height="450" Width="800" WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"> <!--Окно на весь экран-->
+    
+    <Window.Resources>
+        <!--Округлая кнопка-->
+        <Style x:Key="roundedButton">
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <TextBlock Text="Система моделирования работы склада продуктового магазина ″СКЛАД″" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="0" />
+
+        <Border Background="GhostWhite" BorderBrush="Silver" BorderThickness="1" CornerRadius="8,8,3,3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Stretch">
+            <StackPanel Margin="10" VerticalAlignment="Center">
+                <Button x:Name="btnProgramStart" Content="Запуск программы" Margin="0,1" Style="{StaticResource roundedButton}" />
+                <Button x:Name="btnProgramQuit" Content="Выход" Margin="0,1" Style="{StaticResource roundedButton}" />
+            </StackPanel>
+        </Border>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.65*" />
+            <RowDefinition Height="0.7*" />
+            <RowDefinition Height="1.65*" />
+        </Grid.RowDefinitions>
+    </Grid>
+</Window>

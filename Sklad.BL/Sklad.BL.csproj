@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<!-- For system.windows.controls (net5.0-windows instead net5.0 & UseWPF) -->
+    <TargetFramework>net5.0-windows</TargetFramework>
+	<UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.7" />
+  </ItemGroup>
+
+</Project>
