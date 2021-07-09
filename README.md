@@ -1,7 +1,20 @@
 # Sklad
 
-ERD бизнес-логики проекта
-![ERD](https://i.imgur.com/td5IysW.png)
+<details>
+<summary>ERD бизнес-логики проекта</summary>
+  
+[![ERD][1]][1]
+  
+[1]: https://i.imgur.com/td5IysW.png
+ 
+</details>
 
-Схема алгоритма работы системы
-![Algorithm](https://i.imgur.com/Zuf6DLi.png)
+
+<details>
+<summary>Схема алгоритма работы системы</summary>
+  
+[![Algorithm][2]][2]
+  
+[2]: https://i.imgur.com/Zuf6DLi.png
+ 
+</details>
